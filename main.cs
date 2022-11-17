@@ -14,18 +14,20 @@ class Program
         float guess;
         // Returns an `int` value greater in the range 10 <= value < 50
         float num = random.Next(1, 6);
-          
+
         Console.WriteLine("Pick a number from one to six on the slider below. You must try and guess the random number the computer has chosen...");
         Console.WriteLine("");
 
         Console.Write("Enter your guess: ");
         guess = Convert.ToSingle(Console.ReadLine());
 
-        if (guess == num) {
+        if (guess == num)
+        {
             Console.WriteLine("That is the right answer.");
         }
 
-        if (guess != num) {
+        if (guess != num) 
+        {
             Console.WriteLine("That is the wrong answer.");
         }
         Console.WriteLine("");
