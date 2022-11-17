@@ -26,7 +26,7 @@ class Program
             Console.WriteLine("That is the right answer.");
         }
 
-        if (guess != num) 
+        if (guess != num)
         {
             Console.WriteLine("That is the wrong answer.");
         }
